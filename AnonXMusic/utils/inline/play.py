@@ -33,25 +33,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "─▷─────────"
+        bar = "─sᴏɴᴀ─────────"
     elif 10 < umm < 20:
-        bar = "──▷────────"
+        bar = "──ᴘᴀᴡᴀɴ────────"
     elif 20 <= umm < 30:
-        bar = "───▷───────"
+        bar = "───😇───────"
     elif 30 <= umm < 40:
-        bar = "────▷──────"
+        bar = "────sᴏɴᴀ──────"
     elif 40 <= umm < 50:
-        bar = "─────▷─────"
+        bar = "─────ᴍᴜsɪᴄ─────"
     elif 50 <= umm < 60:
-        bar = "──────▷────"
+        bar = "──────💸────"
     elif 60 <= umm < 70:
-        bar = "───────▷───"
+        bar = "───────🥀───"
     elif 70 <= umm < 80:
-        bar = "────────▷──"
+        bar = "────────🐝──"
     elif 80 <= umm < 95:
-        bar = "─────────▷─"   
+        bar = "─────────🍃─"   
     else:
-        bar = "──────────▷"
+        bar = "──────────🌸"
         
     buttons = [
         [
@@ -69,10 +69,10 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url="https://t.me/BRANDEDKING82",
+                text="🥀ᴏᴡɴᴇʀ", url="https://t.me/mr_editx",
             ),
             InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url="https://t.me/BRANDED_WORLD",
+                text="🥀sᴜᴩᴩᴏʀᴛ", url="https://t.me/+EdY7r8TuomYxZTg1",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -91,10 +91,10 @@ def stream_markup(_, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url="https://t.me/BRANDEDKING82",
+                text="🥀ᴏᴡɴᴇʀ", url="https://t.me/mr_editx",
             ),
             InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url="https://t.me/BRANDED_WORLD",
+                text="🥀sᴜᴩᴩᴏʀᴛ", url="https://t.me/+EdY7r8TuomYxZTg1",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
